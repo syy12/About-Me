@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="my_name">Sze Yen Ying</string>
+    <string name="my_profile_pic">Profile Picture</string>
+    <string name="my_profile_desc">
+        \nEducation:
+        \n\t SRJK(C) asdfl lajko
+        \n
+        \n\t SMK asdfmco
+        \n
+        \n\t TAR UC
+        \n
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nzzzz
+        \n
+        \nEND
+    </string>
+</resources>
