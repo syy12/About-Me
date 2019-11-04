@@ -9,17 +9,17 @@
     tools:context=".MainActivity">
 
     <TextView
+        style="@style/my_font_style"
         android:gravity="center"
         android:text="@string/my_name"
-        app:fontFamily="@font/roboto_thin"
+        app:fontFamily="@font/roboto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/my_font_style" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@string/nickname_edit"
+        android:id="@+id/nickname_edit"
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,10 +30,26 @@
         android:textAlignment="center" />
 
     <Button
-        android:id="@+id/button"
+        app:fontFamily="@font/roboto"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btn_margin"
+        android:text="@string/done"
+        android:onClick="clickHandlerFunction"/>
+
+    <TextView
+        android:background="@color/colorAccent"
+        android:paddingBottom="@dimen/small_padding"
+        android:visibility="gone"
+        android:textAlignment="center"
+        style="@style/NameStyle"
+        android:id="@+id/nickname_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="" />
 
     <ImageView
         android:contentDescription="@string/my_profile_pic"
